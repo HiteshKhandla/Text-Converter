@@ -25,6 +25,20 @@ const Textform = () => {
         setText(newtext)
    
     }
+//     function capitalizeString(str) {
+//   let capitalizedStr = "";
+//   let words = str.split(" ");
+//   for (let i = 0; i < words.length; i++) {
+//     let word = words[i].toLowerCase();
+//     capitalizedStr += word.charAt(0).toUpperCase() + word.slice(1) + " ";
+//   }
+//   return capitalizedStr.trim();
+// }
+
+// // Example usage:
+// let sentence = "hello world";
+// let capitalizedSentence = capitalizeString(sentence);
+// console.log(capitalizedSentence); // Output: Hello World
 
     const handleclear = () => {
         let newtext = "";
